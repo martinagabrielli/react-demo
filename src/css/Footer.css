@@ -1,0 +1,9 @@
+footer {
+    background: lightcoral;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 40px;
+    font-size: 20px;
+}
