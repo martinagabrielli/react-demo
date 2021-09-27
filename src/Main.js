@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import List from './List'
 
 function Main() {
     const [counter, setCounter] = useState(0)
@@ -30,6 +31,7 @@ function Main() {
                 <button className="change-colour" onClick={generateCombination}>Change Colour</button>
                 <div className="hex-colour">The hex colour genereted is {colour} 🎨</div>
             </section>
+            <List />
         </main>
     )
 }
