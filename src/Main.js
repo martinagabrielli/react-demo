@@ -21,9 +21,10 @@ function Main() {
 
     return (
         <main style={{background: colour}}>
-            <section>
-                <h1>Counter</h1>
+            <section className="counter">
+                <p>You changed colour</p>
                 <div id="display">{counter}</div>
+                <p>Times</p>
             </section>
             <section>
                 <button className="change-colour" onClick={generateCombination}>Change Colour</button>
